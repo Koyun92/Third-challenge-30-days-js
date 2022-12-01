@@ -88,7 +88,7 @@
     const peopleSorted = people.sort(function (a, b) {
       const aName = a.substr(a.indexOf(" ") + 1);
       const bName = b.substr(b.indexOf(" ") + 1);
-      return aName.localeCompare(bDomain);
+      return aName.localeCompare(bName);
     })
     console.log(peopleSorted);
 
